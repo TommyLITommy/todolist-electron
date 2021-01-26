@@ -15,6 +15,20 @@ To start the application:
 npm start
 ```
 
+## Package and distribute the application
+
+Import Elecron Forge to the application:
+```bash
+npx @electron-forge/cli import
+```
+
+Create a distributable:
+```bash
+npm run make
+```
+
+Electron-forge creates the 'out' folder where your package will be located:
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
