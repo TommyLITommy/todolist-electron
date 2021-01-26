@@ -1,0 +1,15 @@
+{
+  "name": "todolist-electron",
+  "version": "0.1.0",
+  "description": "It is a non-profit project aiming to practice my skills in JavaScript. It was developed with HTML, CSS, JavaScript and ElectronJs. ",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Rafael Andrade Mirapalheta",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^11.2.1"
+  }
+}
