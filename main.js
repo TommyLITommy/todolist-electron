@@ -2,8 +2,8 @@ const {app, BrowserWindow} = require('electron');
 const path = require('path')
 function createWindow(){
   const window = new BrowserWindow({
-    width: 600,
-    height: 700,
+    width: 1200,
+    height: 675,
     webPreferences: {
       contextIsolation:true
     },
@@ -11,8 +11,8 @@ function createWindow(){
   });
 
   window.loadFile('index.html')
-  window.setMinimumSize(500, 600)
-  window.setMaximumSize(900, 800)
+  window.setMinimumSize(800, 600)
+  window.setMaximumSize(1920, 1080)
 }
 
 app.whenReady().then(createWindow)
